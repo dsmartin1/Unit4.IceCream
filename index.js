@@ -19,7 +19,7 @@ app.get('/api/flavors', async (req, res, next) => {
     };
 });
 
-// READ / GET Single, by ID
+// READ / GET - Single, by ID
 app.get('/api/flavors/:id', async (req, res, next) => {
     try {
         const SQL = `
